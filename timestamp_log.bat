@@ -18,7 +18,7 @@ set datetime=%date% %time:~0,8%
 echo %datetime%
 echo. && echo.
 
-:: writes (adds) to existing file (new_line)							:: builds new file if doesnt exist ... single '>' writes new file / overwrites existing file
+:: writes (adds) to existing file (new_line)					:: builds new file if doesnt exist ... single '>' writes new file / overwrites existing file
 echo %datetime% >> %path%\timestamp.txt 										
 
 :: "confirms" file-writing 
