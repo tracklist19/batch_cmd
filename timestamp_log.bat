@@ -28,5 +28,5 @@ echo. && echo. && echo. && echo. && echo.
 :: open log-file 
 ::start %path%\timestamp.txt
 
-:::  END  ::: 															:: show prompt-window after run
+:::  END  ::: 															              :: show prompt-window after run
 PAUSE
