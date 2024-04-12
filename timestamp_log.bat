@@ -1,6 +1,7 @@
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: writes timestamp in log-file 
 :: scheduled by Windows Task Scheduler after system-startup/sign-in
+:: program gets terminated after 3min, see .xml-file
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 @echo off
